@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Cheat Sheet</string>
+    <string name="register">Register</string>
+    <string name="options">Options</string>
+    <string name="homework">Homework</string>
     <string name="title_activity_login">LoginActivity</string>
 </resources>

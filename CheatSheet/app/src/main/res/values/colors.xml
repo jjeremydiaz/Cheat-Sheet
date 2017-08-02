@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="register">#6A1B9A</color>
+    <color name="options">#E53935</color>
+    <color name="homework">#039BE5</color>
 </resources>

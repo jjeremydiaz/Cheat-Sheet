@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    >
+
+    <Button
+        android:id="@+id/calender"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:background="#009688"
+        android:fontFamily="sans-serif"
+        android:text="Calender"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="443dp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignStart="@+id/Assignment1"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/Assignment2"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Assignment Name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="134dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/Assignment3"
+        android:layout_marginTop="18dp" />
+
+    <Button
+        android:id="@+id/Assignment3"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Assignment Name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="261dp"
+        android:layout_below="@+id/Assignment2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp" />
+
+    <Button
+        android:id="@+id/Assignment1"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Assignment Name"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_below="@+id/Assignment3"
+        android:layout_alignStart="@+id/Assignment3"
+        android:layout_marginTop="29dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="118dp"
+        android:layout_height="78dp"
+        app:srcCompat="@drawable/addbutton"
+        tools:layout_editor_absoluteX="249dp"
+        tools:layout_editor_absoluteY="431dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="9dp" />
+
+</RelativeLayout>

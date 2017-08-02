@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA"
+    >
+
+    <Button
+        android:id="@+id/ClassroomChat"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Button"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="366dp"
+        tools:text="Classroom Chat"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/Notes"
+        android:layout_alignStart="@+id/TipsAndTricks"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/Notes"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Notes"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="250dp"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/TipsAndTricks"
+        android:layout_alignStart="@+id/TipsAndTricks"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/TipsAndTricks"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Tips and Tricks"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="135dp"
+        android:layout_marginTop="117dp"
+        android:layout_alignTop="@+id/Homework"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/Homework"
+        android:layout_width="319dp"
+        android:layout_height="99dp"
+        android:background="#009688"
+        android:text="Homework"
+        android:textColor="@android:color/white"
+        android:textSize="24dp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="27dp"
+        android:textAllCaps="false"/>
+</RelativeLayout>

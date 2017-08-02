@@ -25,8 +25,20 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.worky.cheatsheet.MainActivity" />
         </activity>
-        <activity android:name=".Register" />
-        <activity android:name=".Register2"></activity>
+        <activity
+            android:name=".Register"
+            android:label="@string/register"></activity>
+        <activity
+            android:name=".Register2"
+            android:label="@string/register"></activity>
+        <activity
+            android:name=".Options"
+            android:label="@string/options"></activity>
+        <activity
+            android:name=".Homework"
+            android:label="@string/homework"></activity>
+
+
     </application>
 
 </manifest>
