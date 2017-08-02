@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="81dp"
+        android:layout_height="40dp"
+        android:background="#009688"
+        android:fontFamily="sans-serif"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        tools:layout_editor_absoluteX="263dp"
+        tools:layout_editor_absoluteY="455dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="7dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:hint="Re-type Password"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="9dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

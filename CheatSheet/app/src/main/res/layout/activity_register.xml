@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF">
+    android:background="#FFFFFF"
+    >
 
 
     <EditText
@@ -34,16 +35,16 @@
         android:id="@+id/editText6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="19dp"
         android:ems="10"
         android:hint="Full Name"
-        android:inputType="textPersonName"
-        android:layout_marginTop="19dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="18dp" />
+        android:inputType="textPersonName" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/NextStepButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -53,5 +54,6 @@
         android:background="#009688"
         android:fontFamily="sans-serif"
         android:text="Next Step"
-        android:textAllCaps="false"/>
+        android:textAllCaps="false"
+        android:textColor="@android:color/white" />
 </RelativeLayout>
