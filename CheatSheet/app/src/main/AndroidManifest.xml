@@ -27,18 +27,17 @@
         </activity>
         <activity
             android:name=".Register"
-            android:label="@string/register"></activity>
+            android:label="@string/register" />
         <activity
             android:name=".Register2"
-            android:label="@string/register"></activity>
+            android:label="@string/register" />
         <activity
             android:name=".Options"
-            android:label="@string/options"></activity>
+            android:label="@string/options" />
         <activity
             android:name=".Homework"
-            android:label="@string/homework"></activity>
-
-
+            android:label="@string/homework" />
+        <activity android:name=".Assignment"></activity>
     </application>
 
 </manifest>
