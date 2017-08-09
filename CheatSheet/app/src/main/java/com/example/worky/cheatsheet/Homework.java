@@ -21,35 +21,39 @@ public class Homework extends AppCompatActivity {
         android.support.v7.app.ActionBar bar = getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03A9F4")));
 
-        Button loginButton = (Button) findViewById(R.id.Assignment1);
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        Button Assignment1 = (Button) findViewById(R.id.Assignment1);
+        Assignment1.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(getApplicationContext(), Assignment.class);
                 startActivity(intent);
 
-                Button loginButton = (Button) findViewById(R.id.Assignment2);
-                loginButton.setOnClickListener(new View.OnClickListener() {
-                    public void onClick(View v) {
-                        // Code here executes on main thread after user presses button
-                        Intent intent = new Intent(getApplicationContext(), Assignment.class);
-                        startActivity(intent);
 
-                        Button loginButton = (Button) findViewById(R.id.Assignment3);
-                        loginButton.setOnClickListener(new View.OnClickListener() {
-                            public void onClick(View v) {
-                                // Code here executes on main thread after user presses button
-                                Intent intent = new Intent(getApplicationContext(), Assignment.class);
-                                startActivity(intent);
-
-                            }
-
-                        });
-
-                    }
-                });
 
             }
+        });
+
+        Button Assignment2 = (Button) findViewById(R.id.Assignment2);
+        Assignment2.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                Intent intent = new Intent(getApplicationContext(), Assignment.class);
+                startActivity(intent);
+
+
+
+            }
+        });
+
+        Button Assignment3 = (Button) findViewById(R.id.Assignment3);
+        Assignment3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                // Code here executes on main thread after user presses button
+                Intent intent = new Intent(getApplicationContext(), Assignment.class);
+                startActivity(intent);
+
+            }
+
         });
     }
 }
