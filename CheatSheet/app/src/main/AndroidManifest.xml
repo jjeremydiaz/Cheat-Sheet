@@ -30,7 +30,10 @@
             android:label="@string/title_activity_classes"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Register" />
-        <activity android:name=".AddClasses"></activity>
+        <activity android:name=".AddClasses" android:label= "@string/title_add_classes">
+
+        </activity>
+
     </application>
 
 </manifest>

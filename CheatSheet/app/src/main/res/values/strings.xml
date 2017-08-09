@@ -2,4 +2,5 @@
     <string name="app_name">Cheat Sheet</string>
     <string name="title_activity_login">LoginActivity</string>
     <string name="title_activity_classes">Classes</string>
+    <string name="title_add_classes">Name Your Class</string>
 </resources>
