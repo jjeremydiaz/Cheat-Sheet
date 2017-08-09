@@ -28,7 +28,9 @@
         <activity
             android:name=".ClassesActivity"
             android:label="@string/title_activity_classes"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Register" />
+        <activity android:name=".AddClasses"></activity>
     </application>
 
 </manifest>
