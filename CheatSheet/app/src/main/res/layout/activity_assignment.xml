@@ -18,21 +18,18 @@
         android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="455dp"
-        android:layout_below="@+id/editText9"
+        android:layout_marginStart="9dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="11dp" />
+        android:layout_marginBottom="9dp" />
 
     <EditText
-        android:id="@+id/editText9"
-        android:layout_width="344dp"
-        android:layout_height="439dp"
-        android:ems="10"
-        android:hint="Info about assignment.........."
-        android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignStart="@+id/ViewonCalender" />
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="match_parent"
+        android:hint="Type here..."
+        android:gravity="top"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@android:color/transparent"/>/>
 
 </RelativeLayout>

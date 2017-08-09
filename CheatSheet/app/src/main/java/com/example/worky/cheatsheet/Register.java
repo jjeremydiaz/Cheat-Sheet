@@ -22,8 +22,8 @@ public class Register extends AppCompatActivity {
         android.support.v7.app.ActionBar bar = getSupportActionBar();
         bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#9C27B0")));
 
-        Button loginButton = (Button) findViewById(R.id.NextStepButton);
-        loginButton.setOnClickListener(new View.OnClickListener() {
+        Button NextStepButton = (Button) findViewById(R.id.NextStepButton);
+        NextStepButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
                 Intent intent = new Intent(getApplicationContext(), Register2.class);

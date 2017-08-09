@@ -4,5 +4,8 @@
     <string name="options">Options</string>
     <string name="homework">Homework</string>
     <string name="assignment">Assignment</string>
+    <string name="notes">Notes</string>
+    <string name="note2"> best random notes</string>
+    <string name="chat"> Classroom Chat</string>
     <string name="title_activity_login">LoginActivity</string>
 </resources>

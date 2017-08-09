@@ -39,7 +39,16 @@
             android:label="@string/homework" />
         <activity
             android:name=".Assignment"
-            android:label="Assignment"/>
+            android:label="Assignment" />
+        <activity
+            android:name=".Notes"
+            android:label="Notes" />
+        <activity
+            android:name=".Note2"
+            android:label="best notes ever" />
+        <activity
+            android:name=".Chat"
+            android:label="Classroom Chat"/>
     </application>
 
 </manifest>

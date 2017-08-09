@@ -8,27 +8,31 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Register2 extends AppCompatActivity {
+public class Notes extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_register2);
+        setContentView(R.layout.activity_notes);
 
         GlobalFunctions globalFunctions = new GlobalFunctions(this.getBaseContext(), this);
-        globalFunctions.changeTaskBarColor(R.color.register);
+        globalFunctions.changeTaskBarColor(R.color.homework);
 
         android.support.v7.app.ActionBar bar = getSupportActionBar();
-        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#9C27B0")));
+        bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#03A9F4")));
 
-        Button Done = (Button) findViewById(R.id.Done);
-        Done.setOnClickListener(new View.OnClickListener() {
+        Button Note = (Button) findViewById(R.id.Notebutton);
+        Note.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                Intent intent = new Intent(getApplicationContext(), Options.class);
+                Intent intent = new Intent(getApplicationContext(), Note2.class);
                 startActivity(intent);
+
+
             }
         });
 
     }
 }
+
+

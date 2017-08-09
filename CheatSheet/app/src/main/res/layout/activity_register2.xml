@@ -18,8 +18,8 @@
         android:textColor="@android:color/white"
         tools:layout_editor_absoluteX="263dp"
         tools:layout_editor_absoluteY="455dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="8dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true" />
 
