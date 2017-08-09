@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "661021740947",
+    "firebase_url": "https://cheatsheet-866d1.firebaseio.com",
+    "project_id": "cheatsheet-866d1",
+    "storage_bucket": "cheatsheet-866d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:661021740947:android:1f5521239e6226fd",
+        "android_client_info": {
+          "package_name": "com.example.worky.cheatsheet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "661021740947-nkggctcnmvdeedm54uepuca5t5874l8f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.worky.cheatsheet",
+            "certificate_hash": "a3d3b70704c0d0b3bb5b842fca0c3e09e09e6ac8"
+          }
+        },
+        {
+          "client_id": "661021740947-uu6436fddlmqlcjb3ogu2dpkn54td7gl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARXX-34ZdjxLD6m_QyU6W8jgQ_EkGfx2U"
+        },
+        {
+          "current_key": "AIzaSyBuclGH0HTxlvJVB3dOnyvUPZ_GLaVVxbo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "661021740947-uu6436fddlmqlcjb3ogu2dpkn54td7gl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

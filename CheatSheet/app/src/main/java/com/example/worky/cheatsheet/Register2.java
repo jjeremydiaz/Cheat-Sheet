@@ -25,7 +25,7 @@ public class Register2 extends AppCompatActivity {
         Done.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 // Code here executes on main thread after user presses button
-                Intent intent = new Intent(getApplicationContext(), Options.class);
+                Intent intent = new Intent(getApplicationContext(), ClassesActivity.class);
                 startActivity(intent);
             }
         });

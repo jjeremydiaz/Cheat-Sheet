@@ -49,6 +49,14 @@
         <activity
             android:name=".Chat"
             android:label="Classroom Chat"/>
+        <activity
+            android:name=".ClassesActivity"
+            android:label="@string/title_activity_classes"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".AddClasses" android:label= "@string/title_add_classes">
+
+        </activity>
+
     </application>
 
 </manifest>

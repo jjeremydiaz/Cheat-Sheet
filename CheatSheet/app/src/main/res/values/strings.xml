@@ -8,4 +8,7 @@
     <string name="note2"> best random notes</string>
     <string name="chat"> Classroom Chat</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_classes">Classes</string>
+    <string name="title_add_classes">Name Your Class</string>
+    <string name="auth_failed">Unable to authenticate</string>
 </resources>
