@@ -37,7 +37,9 @@
         <activity
             android:name=".Homework"
             android:label="@string/homework" />
-        <activity android:name=".Assignment"></activity>
+        <activity
+            android:name=".Assignment"
+            android:label="Assignment"/>
     </application>
 
 </manifest>
